@@ -32,6 +32,13 @@ public class Main {
         byte s = 67;
         System.out.println("s с типом данных 'byte' равен " + s);
 
+        byte lP = 23;
+        byte aS = 27;
+        byte eA = 30;
+        short sumList = 480;
+        System.out.println("На каждого ученика рассчитано " + 480 / (lP+aS+eA) + " листов бумаги.");
+
+
 
 
 
