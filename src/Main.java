@@ -38,6 +38,19 @@ public class Main {
         short sumList = 480;
         System.out.println("На каждого ученика рассчитано " + 480 / (lP+aS+eA) + " листов бумаги.");
 
+        byte butMin = 16/2;
+        int butDwMin = butMin * 20;
+        System.out.println("За 20 минут машина произвела  " + butDwMin + " бутылок.");
+        int butSut = butMin*60*24;
+        System.out.println("За сутки машина произвела  " + butSut + " бутылок.");
+        int butTri = butSut*3;
+        System.out.println("За трое суток машина произвела  " + butTri + " бутылок.");
+        long butMes = butSut*31;
+        System.out.println("За месяц машина произвела  " + butMes + " бутылок.");
+
+
+
+
 
 
 
