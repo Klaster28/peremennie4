@@ -47,6 +47,7 @@ public class Main {
         System.out.println("За трое суток машина произвела  " + butTri + " бутылок.");
         long butMes = butSut*31;
         System.out.println("За месяц машина произвела  " + butMes + " бутылок.");
+
         byte sumKr = 120;
         byte belKr = 2;
         byte korKr = 4;
@@ -54,7 +55,21 @@ public class Main {
         int sumBel = sumKl*2;
         int sumKor = sumKl*4;
         System.out.println("В школе где " + sumKl+ " классов, необходимо " + sumBel +" банок белой краски и " + sumKor +
-                " банок коричневой краски. ");
+                " банок коричневой краски.");
+
+        byte banWt = 80;
+        int banSum = banWt*5;
+        byte molWt = 105;
+        int molSum = molWt*2;
+        byte morWt = 100;
+        int morSum = morWt*2;
+        byte icWt = 70;
+        int icSum = icWt*4;
+        int zavSum = banSum+molSum+morSum+icSum;
+        System.out.println("Общий вес завтрака в граммах составляет - " + zavSum + " гр.");
+        float zavSumKg = zavSum/1000;
+        System.out.println("Общий вес завтрака в килограммах составляет - " + zavSumKg + " кг.");
+
 
 
     }
