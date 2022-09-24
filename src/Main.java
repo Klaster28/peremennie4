@@ -76,6 +76,32 @@ public class Main {
         int rezDnMor = rezWtGr/500;
         System.out.println("При сбросе в день по 500 гр., результат через - " + rezDnMor+ " дней.");
 
+        int mSt = 67760;
+        int mGdSt = mSt*12;
+        double mPv = (mSt * 0.1) + mSt;
+        double mPvGd = (mGdSt *0.1) + mGdSt;
+        double rzn = mPvGd - mGdSt;
+        System.out.println("Маша теперь получает " + mPv + " рублей. Годовой доход вырос на " + rzn + " рублей.");
+
+        int dSt = 83690;
+        int dGdSt = dSt*12;
+        double dPv = (dSt * 0.1) + dSt;
+        double dPvGd = (dGdSt *0.1) + dGdSt;
+        double drzn = dPvGd - dGdSt;
+        System.out.println("Денис теперь получает " + dPv + " рублей. Годовой доход вырос на " + drzn + " рублей.");
+
+        int kSt = 76230;
+        int kGdSt = kSt*12;
+        double kPv = (kSt * 0.1) + kSt;
+        double kPvGd = (kGdSt *0.1) + kGdSt;
+        double krzn = kPvGd - kGdSt;
+        System.out.println("Кристина теперь получает " + kPv + " рублей. Годовой доход вырос на " + krzn + " рублей.");
+
+
+
+
+
+
 
 
     }
