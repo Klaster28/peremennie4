@@ -69,6 +69,12 @@ public class Main {
         System.out.println("Общий вес завтрака в граммах составляет - " + zavSum + " гр.");
         float zavSumKg = zavSum/1000;
         System.out.println("Общий вес завтрака в килограммах составляет - " + zavSumKg + " кг.");
+        byte rezWt = 7;
+        int rezWtGr = rezWt*1000;
+        int rezDn = rezWtGr/250;
+        System.out.println("При сбросе в день по 250 гр., результат через - " + rezDn+ " дней.");
+        int rezDnMor = rezWtGr/500;
+        System.out.println("При сбросе в день по 500 гр., результат через - " + rezDnMor+ " дней.");
 
 
 
